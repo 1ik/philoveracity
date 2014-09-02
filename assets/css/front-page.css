@@ -1,0 +1,241 @@
+/* front page's service's pert done */
+.services {
+	background-color: #F7EDED;
+	min-height: 300px;
+	height: auto;
+}
+.services-item {
+	min-height: 250px;
+}
+.services-item img{
+	margin : 0 auto;
+	margin-top: 60px;
+	margin-left: 35%;
+	line-height: 200px;
+    text-align: center;
+}
+
+@media screen and (min-width: 765px) {
+	.services-item img{
+		margin-left: 25%;
+	}
+}
+
+.services .services-heading h2 {
+	text-align: center;
+	font-size: 3em;
+	font-family: "KlinicSlabBook";
+}
+
+.services .services-heading p {
+	text-align: center;
+	width: 70%;
+	margin : 0 auto;
+	font-family: "KlinicSlabLight";
+	font-size: 2em;
+}
+
+/* front page's service's pert done */
+
+
+/* front page's recent blog part. */
+.recent-works-right {
+	margin-top: 10px;
+}
+
+.recent-works {
+	height: auto;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+.recent-works-heading h2{
+	text-align: center;
+	color: #AA8C8C;
+	margin-top: .5em;
+	font-size: 2.4em;
+	font-family: "KlinicSlabBook";
+}
+
+div.recent-work-item {
+	width: 80%;
+	max-width: 350px;
+	margin : 10% auto;
+	position: relative;
+	height: auto;
+	background-color: #AA8C8C;
+}
+
+
+div.recent-work-item.featured {
+	width: 75%;
+	margin : 5% auto;
+	height: auto;
+	max-width: 800px;
+}
+.featured img {
+	width: 100%;
+}
+
+.recent-work-item-contents {
+	margin : 5%;
+	margin-left: 5%;
+	height: 100%;
+	left: 5%;
+	position: absolute;
+	width: 80%;
+}
+
+.recent-work-item-contents h4 {
+	background-color: white;
+	font-family: "OpenSans-Bold";
+	font-size: 1.5em;
+}
+
+.recent-work-item-contents p {
+	position: absolute;
+	font-family: "OpenSans-Regular";
+	font-weight: 400;
+	background-color: white;
+	bottom: 25%;
+}
+
+a.explore-button {
+	margin-top: 50px;
+}
+
+/*assets/images/icons/crossicon.png*/
+div.cross-icon {
+	margin-top: 20px;
+	background-image: url(../images/icons/crossicon.png);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.cross-icon-wrapper {
+	margin-top: 20px;
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	float: right;
+}
+
+.cross-icon-wrapper img{
+	width: 80%;
+}
+
+/* recent -blog */
+
+/*
+
+
+
+
+
+.recent-blog {
+	pading : 1.4em;
+}
+
+.recent-blog p.blog-posting-time i {
+	padding-right: .5em;
+}
+
+
+@media screen and (min-width: 765px) {
+	.recent-blog {
+		background-image: url(../images/blog-bg.jpg);
+		background-repeat: no-repeat;
+		pading : 1.4em;
+	}
+	.recent-blog-contents {
+		position: relative;
+		padding : 3em;
+		background-color: rgba(186,84,84,.7);
+	}
+}
+*/
+
+.recent-blog {
+
+}
+
+div.recent-blog-contents {
+	background-color: rgba(186,84,84,1);
+	padding :3em;
+}
+
+.recent-blog h2 {
+	position: relative;
+	font-family: "OpenSans-Bold";
+	color: white;
+	font-size: 2.4em;
+}
+
+.recent-blog .blog-heading {
+	font-family: "KlinicSlabBold";
+	color: white;
+	font-size: 2.5em;
+	padding : 0px;
+	padding-left: .5em;
+}
+
+.recent-blog p.blog-posting-time {
+	font-family: "OpenSans-Semibold";
+	color: white;
+	margin-left: .5em;
+	font-size: 1em;
+	font-weight: 400;
+	padding-right: .3em;
+}
+
+.recent-blog .blog-body .blog-featured-image img{
+	width: 85%;
+	margin-left: .9em;
+	height: auto;
+	margin-top: 1em;
+	max-width: 260px;
+}
+.recent-blog .blog-body .blog-contents{
+	background-color: white;
+	padding : .4em;
+	margin-top: 1em;
+}
+
+.recent-blog .blog-body .blog-contents p{
+	font-family: "KlinicSlabLight";
+	color : #7C2F2F;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.recent-blog .blog-body .blog-contents p a {
+	color : #7C2727;
+	font-family: "KlinicSlabBold";
+	font-weight: 600;
+	padding : 1em;
+}
+
+@media screen and (min-width: 765px) {
+	.recent-blog {
+		background-image: url(../images/blog-bg.jpg);
+		background-repeat: no-repeat;
+		pading : 1.4em;
+		background-size: 100% auto;
+	}
+	div.recent-blog-contents {
+		position: relative;
+		padding : 3em;
+		background-color: rgba(186,84,84,.7);
+	}
+
+	.recent-blog .blog-body .blog-contents p{
+		text-align: left;
+		font-size: 2em;
+	}
+}
+
+
+
+
+

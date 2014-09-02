@@ -1,0 +1,192 @@
+.cover {
+	background-color: white;
+	background-image: url(../images/blog-bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.cover .filterlayer {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	-webkit-filter: blur(8px);
+	  -moz-filter: blur(5px);
+	  -o-filter: blur(5px);
+	  -ms-filter: blur(5px);
+	  filter: blur(5px);
+	 background-color: rgba(255,255,255,.7); 
+}
+
+.cover h2 {
+	font-size: 5em;
+	color: #820b0b;
+	width: 40%;
+	margin : 0 auto;
+	text-align: center;
+	top: 20vh;
+	font-family: "ClanCompPro-News";
+	position: relative;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.cover p {
+	font-family: "ClanCompPro-News";
+	position: relative;
+	top: 30vh;
+	font-family: "ClanCompPro-News";
+	text-align: center;
+	font-size: 2em;
+}
+
+
+
+.cover .scroll-down {
+	width: 20%;
+	height: 80px;
+	background-color: rgba(247,237,237,0.5);
+	z-index: 999999;
+	position: absolute;
+	min-width: 200px;
+}
+
+
+.cover .scroll-down img{
+	margin-top: 20px;
+	-webkit-animation: scrolldown .9s infinite; /* Chrome, Safari, Opera */
+	animation: scrolldown .9s infinite;
+
+}
+
+
+@-webkit-keyframes scrolldown {
+    from { -webkit-transform: translateY(0px); opacity: 0; }
+    to { -webkit-transform: translateY(10px); opacity: .5; }
+}
+
+@keyframes scrolldown {
+    from { -webkit-transform: translateY(0px); opacity: 0; }
+    to { -webkit-transform: translateY(10px); opacity: .5; }
+}
+
+
+
+.contents {
+	background-color: white;	
+	height: auto;
+	padding : 50px;
+}
+
+.blog-post.pull-right {
+	margin-right: 20px;
+}
+
+.blog-post {
+	opacity: 0;
+	margin-top: 100px;
+}
+.blog-post .wrapper {
+	width: 90%;
+	height: auto;
+}
+
+.blog-post h2 {
+	font-family: "ClanCompPro-News";
+	font-size: 2em;
+	padding : 0;
+	color: black;
+}
+
+.blog-post p {
+	font-family: "Lato-Light";
+	font-size: 1.3em;
+	color: black;
+	padding : 0;
+}
+
+.blog-post img {
+	width: 100%;
+	height: auto;
+	float: left;
+	padding-right: 1.2%; 
+}
+
+@media only screen and (min-width: 765px) {
+	.blog-post img {
+		width: 40%;
+		float: left;
+		padding-right: 1.2%; 
+	}
+}
+
+
+
+.blog-post .post-info .post-author {
+	font-style: italic;
+}
+
+.blog-post .post-info .time, .blog-post .post-info , .post-author {
+	font-size: 1em;
+	font-weight: 200;
+	color: #930c0c;
+}
+
+.blog-post .blog-footer {
+	margin-top: 1em;
+}
+
+.blog-post .blog-footer span.comments {
+	float: right;
+	font-style: italic;
+}
+
+
+.blog-post.featured img {
+	width: 100%;
+	height: 50%;
+}
+
+.blog-post.featured h2 {
+	padding-left: 1em;
+}
+
+.blog-post.featured p {
+	font-size: 1.7em;
+	padding-left : 1.3em;
+	margin-top: .5em;
+}
+.blog-post.featured .post-info {
+	font-size: 1.3em;
+	padding-left: 1.6em;
+}
+
+
+
+
+
+
+.pagination {
+    clear:both;
+    position:relative;
+    font-size:11px;
+    text-align:center;
+    margin-top: 100px;
+}
+
+.pagination span, .pagination a {
+    display:inline-block;
+    margin: 2px 2px 2px 0;
+    padding:6px 9px 5px 9px;
+    text-decoration:none;
+    color: #820B0B;
+    background: #E5DCD4;
+}
+
+.pagination .current{
+    padding:6px 9px 5px 9px;
+    font-weight: bold;
+    background: #820B0B;
+    color : #fff;
+}
+
+

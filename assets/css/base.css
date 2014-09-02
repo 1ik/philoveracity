@@ -1,0 +1,464 @@
+/*trunk js modification*/
+
+nav.slide {
+	left : 0px;
+	right : 0px;
+	position: fixed;
+}
+
+.container , body {
+	background-color: #C68181;
+}
+
+header {
+	height: 60px;
+	z-index: 2;
+	background-color: #060a0c;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	/* starting point */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.btn {
+	padding : 1em;
+	background : #cccccc;
+	border-radius: 2px 2px 2px 2px;
+	font-family: "Klinic Slab";
+	font-weight: 400;
+	transition : background .6s ease;
+	transition : color .6s ease;
+}
+
+.btn-info {
+	background : #F7EDED;
+	color: #AA8C8C;
+	font-size: 1.5em;
+}
+
+.btn-info:hover {
+	color: white;
+	background : #AA8C8C;
+}
+
+.btn-large {
+	padding : 1em 2.4em 1em 2.4em;
+}
+
+.input {
+	outline : none;
+}
+
+
+.main-container {
+	width : 100%;
+	background-color: #C68181;
+	height: auto;
+	z-index: 233;
+}
+
+.input {
+	width: 80%;
+	border : none;
+	padding : 1em;
+	font-size: 1em;
+}
+
+.input:focus {
+}
+
+.submit {
+	border-radius: 2px;
+	border : none;
+	background : white;
+	width: 200px;
+	padding : .3em;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+
+@media only screen and (min-width: 780px) {
+	nav.slide {	
+		left : 40px;
+		right : 0px;
+		opacity: .7;
+		z-index: 1444;
+		-webkit-transition: all .3s;
+	}
+	nav.slide ul li {
+		margin-top: 10px;
+		z-index: 1444;
+	}
+
+	nav.slide ul li a {
+		z-index: 1444;
+		padding : 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 10px;
+		padding-top: 5px;
+		font-size: 1.4em;
+		opacity: .9;
+		-webkit-transition: all .3s;
+		border-bottom: 6px solid #C1B0B0;
+	}
+	
+	header {
+		height: 55px;
+		z-index: 1444;
+		opacity: .2;
+		background-color: #C1B0B0;
+		-webkit-transition : all .3s;
+	}
+
+	.main-container {
+		margin-top: -60px;
+	}
+}
+
+/*trunk js modification*/
+
+/* header design */
+.logo {
+	position: absolute;
+	right: 30px;
+	display: block;
+}
+
+div.responsive {
+	display: block;
+}
+
+@media only screen and (min-width: 780px) {
+	div.larger {
+		display: block;
+	}
+
+	div.responsive {
+		display: none;
+	}
+}
+/* header design */
+
+
+/* nav design */
+nav li a {
+	font-family: "ClanCompPro-Medium";
+	color: #ffffff;
+}
+
+@media only screen and (min-width: 780px) {
+	nav li a {
+		font-size: 2em;
+	}
+}
+/* nav design */
+
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.row div {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+h1,h2,h3,h4,h5,h6,p {
+	color: #7C2F2F;
+	padding: .5em;
+}
+
+strong {
+	font-weight: 500;
+	color:#754845;
+	font-family: "RobotoSlab-Bold";
+}
+
+
+/* social share */
+
+.social-share {
+	height: auto;
+	/*background-color: #F7EDED;*/
+	background : white;
+	position: relative;
+}
+
+
+.social-share .item {
+	background-color: white;
+	/*display: inline-block;*/
+	float: left;
+	position: relative;
+	width: 32.9%;
+	padding : 0px;
+	margin : 0px;
+	height: 100px;	
+}
+
+
+.social-share .item:nth-child(1) {
+	border : 1px solid #DBCECE;
+}
+
+
+.social-share .item:nth-child(2) {
+	border-top : 1px solid #DBCECE;
+	border-right : 1px solid #DBCECE;
+	border-bottom : 1px solid #DBCECE;
+}
+
+
+.social-share .item:nth-child(3) {
+	border-top : 1px solid #DBCECE;
+	border-bottom : 1px solid #DBCECE;
+	border-right : 1px solid #DBCECE;
+}
+
+
+.social-share .item .social-icon {
+	width: 80px;
+	height: 80px;
+	position: relative;
+	margin : 0 auto;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	top : 10px;
+}
+
+.social-icon.fb {
+	background-image: url(../images/icons/social/fb_active.png);
+}
+
+.social-icon.gplus {
+	background-image: url(../images/icons/social/gplus_active.png);
+}
+
+.social-icon.twiiter {
+	background-image: url(../images/icons/social/twitter_active.png);
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 765px) {
+	.social-share .item {
+		width: 33.1%;
+	}
+}
+@media only screen and (min-width : 992px) {
+	.social-share .item {
+		background-color: #f7eded;
+		width: 33.2%;
+	}
+ 	.social-icon.fb {
+		background-image: url(../images/icons/social/fb.png);
+	}
+	.social-icon.gplus {
+		background-image: url(../images/icons/social/gplus.png);
+	}
+	.social-icon.twiiter {
+		background-image: url(../images/icons/social/twitter.png);
+	}
+}
+
+
+
+/* footer design */
+
+/********************** Footer upper /**********************/
+
+.footer-upper {
+	background-color: #7c2727;
+	min-height: 600px;
+}
+
+@media screen and (min-width: 765px) {
+	.footer-upper {
+		background-color: #7c2727;
+		background-image: url(../images/skyline.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+
+
+.footer-upper .list-item {
+	text-align: center;
+	margin-top: 3em;
+}
+.footer-upper .list-item h3 {
+	color: white;
+	font-family: "Signika-Bold";
+	font-size: 1.5em;
+}
+
+.footer-upper .list-item ul li {
+	padding : .4em;
+}
+
+.footer-upper .list-item ul li a{
+	font-family: "Signika-Regular";
+	color: white;
+	font-size: 1em;
+}
+/* footer upper list item responsive versions */
+@media screen and (min-width: 765px) {
+	.footer-upper .list-item h3, .footer-upper .list-item ul li a {
+		color: #ffffff;
+	}
+	.footer-upper .list-item ul li a {
+		font-size: 1.4em;
+	}
+}
+
+
+.footer-upper .subscribe {
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+}
+
+@media screen and (min-width: 765px) {
+	.footer-upper .subscribe {
+		text-align: left;
+		float: right;
+	}
+}
+
+
+
+.footer-upper .subscribe h4 {
+	color: white;
+	font-family: "Signika-Semibold";
+	font-size: 2em;
+	text-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+}
+
+.footer-upper .subscribe p {
+	font-family: "Signika-Light";
+	color: white;
+	font-size: 1.3em;
+}
+
+
+.subscribe .input:focus {
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(51, 6, 6, 0.75);
+	-moz-box-shadow:    0px 4px 4px 0px rgba(51, 6, 6, 0.75);
+	box-shadow:         0px 4px 4px 0px rgba(51, 6, 6, 0.75);
+}
+
+
+
+@media screen and (min-width: 765px) {
+	.footer-upper .subscribe h4, .footer-upper .subscribe p {
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+	.footer-upper .subscribe p {
+		margin-top: -10px;
+	}
+	.subscribe .submit {
+		margin-top: 10px;
+		-webkit-transition : all .2s ease;
+	}
+
+	.subscribe .submit:hover {
+		background-color: #440e0e;
+		color: white;
+	}
+
+}
+
+/********************** Footer upper /**********************/
+
+
+
+
+/********************** Footer bottom /**********************/
+.footer-bottom {
+	min-height: 50px;
+	background-color: #f7eded;	
+}
+
+.footer-bottom div.footer-left {
+	background-color: transparent;
+	min-height: 50px;
+	text-align: center;
+}
+
+@media screen and (min-width: 765px) {
+	.footer-bottom div.footer-left {
+		text-align: left;
+	}
+}
+
+.footer-bottom div.footer-left h2 {
+	color: #7c2727;
+	padding : 0px;
+	margin : 0px;
+	font-family: "Signika-Light";
+	font-size: 2em;
+}
+
+@media screen and (min-width: 765px) {
+	.footer-bottom div.footer-left h2 {
+		margin-top: 5px;
+		padding-left: 0em;
+		margin-left: 30px;
+	}
+}
+
+.footer-bottom div.footer-left p {
+	font-family: "Signika-Light";
+	color: black;
+	font-weight: 300;
+	font-size: 1.4em;
+}
+
+@media screen and (min-width: 765px) {
+	.footer-bottom div.footer-left p {
+		padding-left: 0em;
+		margin-left: 30px;
+		margin-top: -10px;
+	}
+}
+
+
+.footer-bottom div.footer-right {
+	background-color: #aa8c8c;
+	min-height: 50px;
+	padding-top: 2em;
+	text-align: center;
+}
+
+
+.footer-bottom div.footer-right p {
+	color: white;
+	font-weight: 500;
+	font-size: 1.4em;
+	font-family: "Signika-Light";
+	padding: 0px;
+	margin : 0px;
+}
+
+/********************** Footer bottom /**********************/
+/* footer design */
+
+
+
+
+
+
+
+

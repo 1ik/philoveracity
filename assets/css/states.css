@@ -1,0 +1,15 @@
+@media only screen and (min-width: 780px) {
+	nav.slide ul li a:hover, nav.slide ul li a.active {
+		color: #d10d0d;
+		border-bottom: 6px solid #d10d0d;
+	}
+
+	header.normal, nav.slide.normal {
+		opacity: .4;
+	}
+
+	header.hovered, nav.slide.hovered {
+		opacity: 1;
+		background-color: black;
+	}
+}

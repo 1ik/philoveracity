@@ -1,0 +1,181 @@
+
+
+.single-blog-post {
+	background-color: #f9f9f9;
+}
+
+@media only screen and (min-width: 765px) {
+	.single-blog-post {
+		background-color: white;
+		padding : 10em;
+	}	
+}
+
+.post-container {
+	width: 100%;
+	border : 1px solid #e5e5e5;
+}
+
+.post-container .blog-featured-image img {
+	width: 100%;
+	height: auto;
+	margin:0;
+}
+
+
+.post-container h1 {
+	text-align: center;
+	font-family: "RobotoSlab-Bold";	
+	font-size: 3em;
+}
+
+.author-name-container {
+	text-align: center;
+	font-style: italic;
+}
+
+
+
+.author-name-container p {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+
+.post-container .social-share {
+	height: 40px;
+	padding : 5px;
+}
+
+
+.posted-in p {
+	text-align: center;
+}
+
+@media only screen and (min-width: 765px) {
+	.posted-in p {
+		text-align: left;
+	}
+}
+
+
+.social-share .icon-wrapper {
+	width: 160px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.social-share div.share-icon {
+	height : 40px;
+	width : 40px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.posted-in p {
+	font-family: "Roboto-Light";
+	font-size: 1.7em;
+	padding : .5em;
+}
+
+@media only screen and (min-width: 765px) {
+
+	.posted-in p {
+		text-align: left;
+	}
+	.social-share .icon-wrapper { 
+		float: right;
+	}
+}
+
+/*kichu kichu shomoy manush nijer man shomman ar baktittokey porowa korena. kono kichu porowa na korei manusher chokh
+theke beriye ashe badhvanga osrujol. kannar pryojoniota tokhon jibon banchanor moton ee mone hy. */
+
+
+
+.social-share div.share-icon.fb, .social div.share-icon.fb {
+	background-image: url(../images/blog/social/fb.png);
+}
+
+.social-share div.share-icon.gplus, .social div.share-icon.gplus {
+	background-image: url(../images/blog/social/gplus.png);
+}
+
+.social-share div.share-icon.twitter, .social div.share-icon.twitter {
+	background-image: url(../images/blog/social/twitter.png);
+}
+
+
+
+.post-container img {
+	margin : 4px;
+	float: right;
+	width: 40%;
+}
+
+.post-body {
+	font-family: "Roboto-Light";
+	font-size: 1.3em;
+	color: black;
+}
+
+
+@media screen and (min-width: 765px) {
+	.post-body div.post-body-wrapper{
+		margin-top: 2em;
+		padding : 2em;
+	}
+}
+
+
+.post-body p {
+	color: black;
+}
+
+.post-body h3 {
+	color: black;
+	font-family: "Roboto-Bold";
+	font-size: 2em;
+}
+
+p.tags {
+	margin-top: 40px;
+}
+.author-info {
+	margin-top: 20px;
+	border : 1px solid #e5e5e5;
+	margin-bottom: 50px;
+}
+.author-info img {
+	width: 65%;
+	height: auto;
+	padding : 20px;
+}
+
+.author-info h4 {
+	font-size: 2em;
+	color: black;
+}
+
+.author-info p {
+	font-size: 1.5em;
+	color: black;
+}
+
+.author-info .social-share {
+	float: left;
+	margin-right: 0px;
+	margin-left: -40px;
+}
+
+.author-info .social .social-icon {
+	margin-left: -20px;
+	float: left;
+	padding : 0;
+	margin : 0;
+	margin-right: 0px;
+}
+
